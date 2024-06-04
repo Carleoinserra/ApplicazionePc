@@ -3,7 +3,8 @@
 <h6>It was created for the Talentform Web Programming course.</h6>
 <hr>
 <h3>Dipendencies</h3>
-```groovy
+
+ ```sh 
 implementation 'org.springframework.boot:spring-boot-starter-mail'
 implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
 implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
@@ -13,5 +14,9 @@ developmentOnly 'org.springframework.boot:spring-boot-devtools'
 runtimeOnly 'com.mysql:mysql-connector-j'
 testImplementation 'org.springframework.boot:spring-boot-starter-test'
 testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+ ```
 
+<h3>1. Gestione magazzino</h3>
+In the manager section, we provide the ability to add a new item and view the company's sales statistics.
 
+![image](https://github.com/Carleoinserra/ApplicazionePc/assets/28870796/d6ffc5a3-a557-4346-a8b4-42fcbea34f7d)
